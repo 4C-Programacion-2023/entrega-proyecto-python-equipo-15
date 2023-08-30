@@ -5,10 +5,11 @@ class JUGADOR:
         self.posicion = posicion
         self.nacionalidad = nacionalidad
         self.valor_de_mercado = valor_de_mercado
-jugadores_de_boca = {"Sergio Romero": {"Edad": 35, "Posición": "Portero", "Valor de Mercado": 15000000, "Valoración": 8}, 
-"Leandro Brey": {"Edad": 20, "Posición": "Portero", "Valor de Mercado": 6000000, "Valoración": 7},
-}
 
+
+jugadores_de_boca = {"sergio romero": {"Edad": 35, "Posición": "Portero", "Valor de Mercado": 15000000, "Valoración": 8}, 
+"leandro brey": {"Edad": 20, "Posición": "Portero", "Valor de Mercado": 6000000, "Valoración": 7},
+}
 jugadores_de_boca_defensores = {
                 "marcelo weigandt": {"Edad": 27, "Posición": "Defensor", "Valor de Mercado": 7000000, "Valoración": 9},
                 "nicolas valentini": {"Edad": 21, "Posición": "Defensor", "Valor de Mercado": 3000000, "Valoración": 8},
@@ -22,11 +23,10 @@ jugadores_de_boca_mediocampistas ={
                 "juan ramirez": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 8},
                 "cristian medina": {"Edad": 22, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 9},
             }
-jugadores_de_boca_delatneros ={
-                    "pol fernandez": {"Edad": 31, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
-                "alan varela": {"Edad": 24, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
-                "juan ramirez": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 8},
-                "cristian medina": {"Edad": 22, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 9},
+jugadores_de_boca_delanteros ={
+                "edinson cavani": {"Edad": 31, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
+                "dario benedetto": {"Edad": 24, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
+                "miguel merentiel": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 8},
             }
 
 jugadores_river = {
@@ -35,8 +35,8 @@ jugadores_river = {
 }
 jugadores_river_defensores = {
     "gonzalo montiel": {"Edad": 25, "Posición": "Defensor", "Valor de Mercado": 20000000, "Valoración": 8},
-    "héctor martinez": {"Edad": 25, "Posición": "Defensor", "Valor de Mercado": 7000000, "Valoración": 7},
-    "david martínez": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 8000000, "Valoración": 7},
+    "hector martinez": {"Edad": 25, "Posición": "Defensor", "Valor de Mercado": 7000000, "Valoración": 7},
+    "david martinez": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 8000000, "Valoración": 7},
     "jonatan maidana": {"Edad": 36, "Posición": "Defensor", "Valor de Mercado": 5000000, "Valoración": 8},
     "milton casco": {"Edad": 33, "Posición": "Defensor", "Valor de Mercado": 9000000, "Valoración": 8},
 }
@@ -47,7 +47,7 @@ jugadores_de_river_mediocampistas = {
     "bruno zuculini": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 7000000, "Valoración": 7},
 }
 jugadores_de_river_delanteros ={
-     "julián alvarez": {"Edad": 21, "Posición": "Delantero", "Valor de Mercado": 20000000, "Valoración": 9},
+     "julian alvarez": {"Edad": 21, "Posición": "Delantero", "Valor de Mercado": 20000000, "Valoración": 9},
     "matias suarez": {"Edad": 34, "Posición": "Delantero", "Valor de Mercado": 12000000, "Valoración": 8},
     "rafael borre": {"Edad": 25, "Posición": "Delantero", "Valor de Mercado": 18000000, "Valoración": 9},
     "jorge carrascal": {"Edad": 23, "Posición": "Delantero", "Valor de Mercado": 10000000, "Valoración": 7}
@@ -62,15 +62,14 @@ jugadores_racing= {
 jugadores_racing_defensores ={
     "leonardo sigali": {"Edad": 34, "Posición": "Defensor", "Valor de Mercado": 5000000, "Valoración": 8},
     "nery dominguez": {"Edad": 31, "Posición": "Defensor", "Valor de Mercado": 4000000, "Valoración": 7},
-    "eugenio Mena": {"Edad": 33, "Posición": "Defensor", "Valor de Mercado": 6000000, "Valoración": 8},
-    "joquín novillo": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 2000000, "Valoración": 7},
+    "eugenio mena": {"Edad": 33, "Posición": "Defensor", "Valor de Mercado": 6000000, "Valoración": 8},
+    "joquin novillo": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 2000000, "Valoración": 7},
     "juan jose caceres": {"Edad": 21, "Posición": "Defensor", "Valor de Mercado": 3000000, "Valoración": 7},
 }
 jugadores_racing_mediocampistas = {
     "leonel miranda": {"Edad": 29, "Posición": "Volante", "Valor de Mercado": 6000000, "Valoración": 7},
-    "matías rojas": {"Edad": 25, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
+    "matias rojas": {"Edad": 25, "Posición": "Volante", "Valor de Mercado": 9000000, "Valoración": 8},
     "ignacio piatti": {"Edad": 36, "Posición": "Volante", "Valor de Mercado": 7000000, "Valoración": 8},
-    "juan pablo rolo": {"Edad": 18, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 7},
 }
 jugadores_de_racing_delanteros = {
     "anibal moreno": {"Edad": 21, "Posición": "Delantero", "Valor de Mercado": 3000000, "Valoración": 7},
@@ -101,7 +100,7 @@ jugadores_de_independiente_delanteros ={
     "silvio romero": {"Edad": 34, "Posición": "Delantero", "Valor de Mercado": 8000000, "Valoración": 9},
     "jonathan menendez": {"Edad": 25, "Posición": "Delantero", "Valor de Mercado": 5000000, "Valoración": 7},
     "braian martinez": {"Edad": 24, "Posición": "Delantero", "Valor de Mercado": 6000000, "Valoración": 8},
-    "juan manuel insaurralde": {"Edad": 36, "Posición": "Delantero", "Valor de Mercado": 3000000, "Valoración": 7}
+    "juan insaurralde": {"Edad": 36, "Posición": "Delantero", "Valor de Mercado": 3000000, "Valoración": 7}
 }
 
 jugadores_san_lorenzo = {
@@ -116,10 +115,10 @@ jugadores_de_san_lorenzo_defensores = {
     "bruno pitton": {"Edad": 27, "Posición": "Defensor", "Valor de Mercado": 3500000, "Valoración": 7},
 }
 jugadores_de_san_lorenzo_mediocampista = {
-    "Juan Ramírez": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 8},
-    "Óscar Romero": {"Edad": 29, "Posición": "Volante", "Valor de Mercado": 8000000, "Valoración": 9},
-    "Ángel Romero": {"Edad": 30, "Posición": "Volante", "Valor de Mercado": 8000000, "Valoración": 8},
-    "Nahuel barrios": {"Edad": 24, "Posición": "Volante", "Valor de Mercado": 3000000, "Valoración": 7},
+    "juan ramirez": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 5000000, "Valoración": 8},
+    "oscar romero": {"Edad": 29, "Posición": "Volante", "Valor de Mercado": 8000000, "Valoración": 9},
+    "angel romero": {"Edad": 30, "Posición": "Volante", "Valor de Mercado": 8000000, "Valoración": 8},
+    "nahuel barrios": {"Edad": 24, "Posición": "Volante", "Valor de Mercado": 3000000, "Valoración": 7},
 }
 jugadores_de_san_lorenzo_delantero = {
     "alex diaz": {"Edad": 21, "Posición": "Delantero", "Valor de Mercado": 4000000, "Valoración": 7},
@@ -134,7 +133,7 @@ jugadores_rosario_central= {
     "mauricio caranta": {"Edad": 42, "Posición": "Portero", "Valor de Mercado": 500000, "Valoración": 6},
 }
 jugadores_de_rosario_central_defensores = {
-     "damian martinez": {"Edad": 28, "Posición": "Defensor", "Valor de Mercado": 5000000, "Valoración": 8},
+    "damian martinez": {"Edad": 28, "Posición": "Defensor", "Valor de Mercado": 5000000, "Valoración": 8},
     "jonathan bottinelli": {"Edad": 37, "Posición": "Defensor", "Valor de Mercado": 2000000, "Valoración": 7},
     "nahuel molina": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 6000000, "Valoración": 8},
     "joel lopez pissano": {"Edad": 26, "Posición": "Defensor", "Valor de Mercado": 1500000, "Valoración": 6},
@@ -142,7 +141,7 @@ jugadores_de_rosario_central_defensores = {
 jugadores_de_rosario_central_mediocampistas = {
     "emmanuel ojeda": {"Edad": 22, "Posición": "Volante", "Valor de Mercado": 3500000, "Valoración": 7},
     "diego zabala": {"Edad": 26, "Posición": "Volante", "Valor de Mercado": 3000000, "Valoración": 6},
-    "fabián rinaudo": {"Edad": 34, "Posición": "Volante", "Valor de Mercado": 2000000, "Valoración": 7},
+    "fabian rinaudo": {"Edad": 34, "Posición": "Volante", "Valor de Mercado": 2000000, "Valoración": 7},
     "luciano ferreyra": {"Edad": 23, "Posición": "Volante", "Valor de Mercado": 2000000, "Valoración": 6},
 }
 jugadores_de_rosario_central_delanteros = {
@@ -183,8 +182,8 @@ jugadores_de_argentinos_jr_delantero = {
 
 
 jugadores_lanus = {
-    "Lautaro morales": {"Edad": 22, "Posición": "Portero", "Valor de Mercado": 1500000, "Valoración": 7},
-    "Lucas acosta": {"Edad": 26, "Posición": "Portero", "Valor de Mercado": 800000, "Valoración": 6},
+    "lautaro morales": {"Edad": 22, "Posición": "Portero", "Valor de Mercado": 1500000, "Valoración": 7},
+    "lucas acosta": {"Edad": 26, "Posición": "Portero", "Valor de Mercado": 800000, "Valoración": 6},
 }
 jugadores_de_lanus_defensores = {
     "nicolas morgantini": {"Edad": 27, "Posición": "Defensor", "Valor de Mercado": 900000, "Valoración": 7},
@@ -209,7 +208,6 @@ jugadores_de_lanus_delanteros = {
 
 
 jugadores_belgrano = {
-    "cesar rigamonti": {"Edad": 32, "Posición": "Portero", "Valor de Mercado": 1200000, "Valoración": 7},
     "nahuel losada": {"Edad": 23, "Posición": "Portero", "Valor de Mercado": 800000, "Valoración": 9},
 }
 jugadores_de_belgrano_defensores = {
@@ -229,8 +227,8 @@ jugadores_de_belgrano_mediocampista = {
 jugadores_de_belgrano_delantero = {
     "lautaro pastran": {"Edad": 23, "Posición": "Delantero", "Valor de Mercado": 700000, "Valoración": 9},
     "daniel barrea": {"Edad": 23, "Posición": "Delantero", "Valor de Mercado": 600000, "Valoración": 10},
-    "pablo veggeti": {"Edad": 20, "Posición": "Delantero", "Valor de Mercado": 800000, "Valoración": 10},
-    "ibraim hesar": {"Edad": 32, "Posición": "Delantero", "Valor de Mercado": 900000, "Valoración": 8}
+    "pablo vegetti": {"Edad": 20, "Posición": "Delantero", "Valor de Mercado": 800000, "Valoración": 10},
+    "ibrahim hesar": {"Edad": 32, "Posición": "Delantero", "Valor de Mercado": 900000, "Valoración": 8}
 }
 
 
@@ -244,11 +242,11 @@ jugadores_de_estudiantes_defensores = {
     "agustin rogel": {"Edad": 23, "Posición": "Defensor", "Valor de Mercado": 1200000, "Valoración": 7},
     "facundo mura": {"Edad": 22, "Posición": "Defensor", "Valor de Mercado": 1000000, "Valoración": 7},
 }
-jugadores_de_estudaintes_mediocampistas = {
+jugadores_de_estudiantes_mediocampistas = {
     "sanchez miño": {"Edad": 32, "Posición": "Volante", "Valor de Mercado": 1800000, "Valoración": 8},
     "nicolas pasquini": {"Edad": 28, "Posición": "Volante", "Valor de Mercado": 1500000, "Valoración": 7},
     "ivan gomez": {"Edad": 23, "Posición": "Volante", "Valor de Mercado": 1000000, "Valoración": 7},
-    "julián marchioni": {"Edad": 21, "Posición": "Volante", "Valor de Mercado": 800000, "Valoración": 6},
+    "julian marchioni": {"Edad": 21, "Posición": "Volante", "Valor de Mercado": 800000, "Valoración": 6},
 }
 jugadores_de_estudiantes_delanteros={
     "federico gonzalez": {"Edad": 26, "Posición": "Delantero", "Valor de Mercado": 2000000, "Valoración": 8},
@@ -256,5 +254,38 @@ jugadores_de_estudiantes_delanteros={
     "martin cauteruccio": {"Edad": 34, "Posición": "Delantero", "Valor de Mercado": 1500000, "Valoración": 7},
     "juan apaolaza": {"Edad": 23, "Posición": "Delantero", "Valor de Mercado": 800000, "Valoración": 7},
     "juan noelia": {"Edad": 23, "Posición": "Volante", "Valor de Mercado": 700000, "Valoración": 7},
-    "danielito carrera": {"Edad": 24, "Posición": "Defensor", "Valor de Mercado": 800000, "Valoración": 7}
+}
+jugadores_leyendas_arqueros={
+    "gianluigi buffon": { "edad": 20, "posicion": "defenspr", "valor de mercado": 120000000, "valoracion": 10},
+    "iker casillas":{"edad": 20, "posicion":"defensor", "valor de mercado": 140000000, "valoracion": 10},
+    "nery pumpido":{"edad": 27, "posicion": "defensor", "valor de mercado": 180000000, "valoracion": 10},
+    "manuel neuer":{"edad": 25, "posicion": "defensor", "valor de mercado": 120000000, "valoracion": 10},
+
+}
+jugadores_leyenda_defensores={
+    "paolo maldini": { "edad": 25, "posicion": "defenspr", "valor de mercado": 130000000, "valoracion": 10},
+    "fabio cannavaro":{"edad": 27, "posicion":"defensor", "valor de mercado": 120000000, "valoracion": 10},
+    "sergio ramos":{"edad": 25, "posicion": "defensor", "valor de mercado": 110000000, "valoracion": 10},
+    "Franz Beckenbauer":{"edad": 27, "posicion": "defensor", "valor de mercado": 170000000, "valoracion": 10},
+
+}
+jugadores_leyendas_mediocampistas={
+    "zinedin zidane": { "edad": 25, "posicion": "mediocampista", "valor de mercado": 125000000, "valoracion": 10},
+    "fernando redondo":{"edad": 27, "posicion":"mediocampista", "valor de mercado": 125000000, "valoracion": 10},
+    "patrick vieira":{"edad": 25, "posicion": "mediocampista", "valor de mercado": 150000000, "valoracion": 10},
+    "andrea pirlo":{"edad": 25, "posicion": "mediocampista", "valor de mercado": 130000000, "valoracion": 10},
+
+}
+
+jugadores_leyendas_delanteros={
+    "diego maradona":{"Edad":25,"Posición":"Delantero", "Valor de Mercado": 125000000,"Valoración":10},
+    "pele":{"Edad":29,"Posición":"Delantero", "Valor de Mercado": 150000000,"Valoración":10},
+    "johan cruyff":{"Edad":27,"Posición":"Delantero", "Valor de Mercado": 150000000,"Valoración":10},
+    "lionel messi":{"Edad":25,"Posición":"Delantero", "Valor de Mercado": 125000000,"Valoración":10},
+    "neymar jr":{"Edad":22,"Posición":"Delantero", "Valor de Mercado": 100000000,"Valoración":10},
+    "cristiano ronaldo":{"Edad":29,"Posición":"Delantero", "Valor de Mercado": 122000000,"Valoración":10},
+
+
+
+
 }
